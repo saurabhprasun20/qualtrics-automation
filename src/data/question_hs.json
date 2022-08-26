@@ -1,0 +1,87 @@
+{
+    "ChoiceOrder":[
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+    ],
+    "Choices":{
+        "1":{
+            "Display":"Choice no 1 is this"
+        },
+        "2":{
+            "Display":"Choice no 2 is that"
+        },
+        "3":{
+            "Display":"Choice no 3 is what"
+        },
+        "4":{
+            "Display":"Choice no 1 is this"
+        },
+        "5":{
+            "Display":"Choice no 2 is that"
+        },
+        "6":{
+            "Display":"Choice no 3 is what"
+        },
+        "7":{
+            "Display":"Choice no 1 is this"
+        },
+        "8":{
+            "Display":"Choice no 2 is that"
+        },
+        "9":{
+            "Display":"Choice no 3 is what"
+        },
+        "10":{
+            "Display":"Choice no 3 is what"
+        }
+    },
+    "Configuration":{
+        "QuestionDescriptionOption": "UseText"
+    },
+    "Language":[
+    ],
+    "NextChoiceId": 4,
+    "NextAnswerId": 1,
+    "QuestionID": "Q4",
+    "QuestionDescription":"This is my second block test question",
+    "QuestionText":"This is my second block test question <div><br></div>",
+    "QuestionType":"MC",
+    "Selector":"MAVR",
+    "SubSelector":"TX",
+    "Validation":{
+            "Settings":
+            {
+                "ForceResponse": "OFF",
+                "Type": "None"
+            }
+    },
+    "QuestionJS":"",
+    "DisplayLogic": {
+        "0": {
+            "0": {
+                "ChoiceLocator": "q://QID16/SelectableChoice/1",
+                "Description": "<span class=\"ConjDesc\">If</span> <span class=\"QuestionDesc\">Enthält dieser Kommentar Hate Speech oder toxische Sprache?</span> <span class=\"LeftOpDesc\">Ja</span> <span class=\"OpDesc\">Is Selected</span> ",
+                "LeftOperand": "q://QID16/SelectableChoice/1",
+                "LogicType": "Question",
+                "Operator": "Selected",
+                "QuestionID": "QID16",
+                "QuestionIDFromLocator": "QID16",
+                "QuestionIsInLoop": "no",
+                "Type": "Expression"
+            },
+            "Type": "If"
+        },
+        "Type": "BooleanExpression",
+        "inPage": false
+    }
+    
+    
+}

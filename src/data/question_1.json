@@ -1,0 +1,23 @@
+{
+    "Configuration":{
+        "QuestionDescriptionOption": "UseText"
+    },
+    "Language":[
+    ],
+    "NextChoiceId": 4,
+    "NextAnswerId": 1,
+    "QuestionID": "Q4",
+    "QuestionDescription":"This is my second block test question",
+    "QuestionText":"This is my second block test question <div><br></div>",
+    "QuestionType":"MC",
+    "Selector":"SAVR",
+    "Validation":{
+        "Settings":
+        {
+            "Type": "None"
+        }
+    },
+    "QuestionJS":""
+    
+    
+}

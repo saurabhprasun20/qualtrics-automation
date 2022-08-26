@@ -1,0 +1,40 @@
+{
+    "ChoiceOrder":[
+        "1",
+        "2",
+        "3"
+    ],
+    "Choices":{
+        "1":{
+            "Display":"Choice no 1 is this"
+        },
+        "2":{
+            "Display":"Choice no 2 is that"
+        },
+        "3":{
+            "Display":"Choice no 3 is what"
+        }
+    },
+    "Configuration":{
+        "QuestionDescriptionOption": "UseText"
+    },
+    "Language":[
+    ],
+    "NextChoiceId": 4,
+    "NextAnswerId": 1,
+    "QuestionID": "Q4",
+    "QuestionDescription":"This is my second block test question",
+    "QuestionText":"This is my second block test question <div><br></div>",
+    "QuestionType":"MC",
+    "Selector":"SAVR",
+    "SubSelector":"TX",
+    "Validation":{
+        "Settings":
+        {
+            "Type": "None"
+        }
+    },
+    "QuestionJS":""
+    
+    
+}
