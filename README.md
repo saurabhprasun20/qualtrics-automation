@@ -1,7 +1,7 @@
 # qualtrics-automation
 ## This repo is part of Citizen Science Survey-
-##1. QualtricsAutomation
-##2. Citizen Science Backend
+## 1. QualtricsAutomation
+## 2. Citizen Science Backend
 
 ### Create a Qualtrics survey from csv documents.
 ### There are two documents needed in order to compile the survey→
